@@ -1,0 +1,16 @@
+﻿<Window x:Class="PIETer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PIETer"
+        mc:Ignorable="d"
+        Title="Drukowanie PIET v 0.0.0.1 beta" Height="350" Width="680.431" MinHeight="350" MinWidth="525" Activated="Window_Activated" Closed="Window_Closed">
+    <Grid Background="#FFFBE187" MinWidth="500" MinHeight="319">
+        <TextBox x:Name="tb_scanBox" Margin="10,96,10,165" TextWrapping="Wrap" TextAlignment="Center" FontSize="36" Height="58" VerticalAlignment="Center" MaxLength="19" MaxLines="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" KeyDown="tb_scanBox_KeyDown"/>
+        <Label x:Name="lb_bottom" Content="" Margin="10,179,10,5" VerticalAlignment="Center" Height="135" HorizontalContentAlignment="Center" FontSize="36" BorderThickness="0"/>
+        <Label x:Name="lb_top" Content="Wprowadź użytkownika" Margin="10,28,10,228" VerticalAlignment="Center" Height="63" HorizontalContentAlignment="Center" FontSize="36" BorderThickness="0"/>
+        <Label x:Name="lb_currentUser" Content="" Margin="10,1,10,0" VerticalAlignment="Top" FontSize="24"/>
+
+    </Grid>
+</Window>
